@@ -15,7 +15,8 @@ import sys
 from pxr import Usd, UsdGeom, UsdPhysics, UsdShade
 
 USD = sys.argv[1] if len(sys.argv) > 1 else "assets/scenes/kitchen_with_orange/scene.usd"
-TARGETS = ["Orange001", "Orange002", "Orange003", "Plate"]
+# 第2引数以降で対象 prim 名を指定できる（省略時は PickOrange のデフォルト）
+TARGETS = sys.argv[2:] or ["Orange001", "Orange002", "Orange003", "Plate"]
 
 
 def head(t):
