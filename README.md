@@ -203,7 +203,7 @@ To see collision shapes: viewport eye icon, then `Show By Type → Physics → C
 
 - GPU instances are billed while running. Stop them when you are done
 - Scene assets and the robot USD are not redistributed here
-- LeIsaac and its assets are Apache-2.0
+- Scripts in this repository are MIT licensed. LeIsaac and its assets are Apache-2.0
 
 ## References
 
